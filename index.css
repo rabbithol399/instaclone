@@ -86,10 +86,17 @@ nav {
 .icon-comment,
 .icon-dm {
     width: 4.5vw;
-    max-width: 40px;
+    max-width: 30px;
     height: auto;
-    transition: filter 2s ease;
+    transition: 1s ease;
     border-radius: 30%;
+    box-shadow: none;
+}
+
+.icon-heart:hover,
+.icon-comment:hover,
+.icon-dm:hover {
+    box-shadow: 0px 20px 20px #c6c6c6;
 }
 
 .likesBox, .caption {
